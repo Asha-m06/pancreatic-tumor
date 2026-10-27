@@ -41,24 +41,6 @@ The project combines convolutional feature extraction with graph-based feature l
 
 **Note:** The workflow uses 2D slices extracted from 3D CT volumes; it should not be described as full 3D neural-network segmentation unless a 3D model is actually implemented.
 
-## Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| Python | Main programming language |
-| PyTorch | Deep-learning model development and training |
-| EfficientNet-B3 | CNN-based feature extraction |
-| PyTorch Geometric | Graph neural network implementation |
-| Graph Attention Network (GAT) | Graph-based feature learning |
-| NiBabel | Loading NIfTI medical imaging files |
-| OpenCV | Image processing and contrast enhancement |
-| Albumentations | Image augmentation |
-| NumPy | Numerical computation |
-| Pandas | Data organization and analysis |
-| scikit-learn | Supporting evaluation and data-processing utilities |
-| Matplotlib | Visualization of images and results |
-| Streamlit | Web interface, if used in the application |
-
 ## Dataset
 
 The project uses CT volumes and corresponding tumor segmentation masks.
